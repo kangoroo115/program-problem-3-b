@@ -51,16 +51,16 @@ void main() {
 	A = (x / 100);
 
 	if (A > B && B > C) {
-		cout << "Descending" << endl;
+		cout << "The number " << A << B << C << " is Descending" << endl;
 	}
 	
 	else if (C > B && B > A) {
-		cout << "Ascending" << endl;
+		cout << "The number " << A << B << C << " is Ascending" << endl;
 	}
 
 	else {
 
-		cout << "Neither" << endl;
+		cout << "The number " << A << B << C << " is Neither" << endl;
 	}
 
 
